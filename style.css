@@ -1,28 +1,3 @@
-/*
-Theme Name:     Ghumti
-Theme URI:      https://aquariusthemes.com/wordpress-themes/ghumti
-Author:         AquariusThemes
-Author URI:     https://aquariusthemes.com
-Description:    Ghumti is a modern ecommerce theme with creative design and powerful features that lets you write articles and blog posts with ease. It uses the best clean SEO practices, responsive HTML5, and on top of that, it’s fast, simple, and easy to use.  Use the Customizer to add your own background, page layout, site width and more. Get free support at https://aquariusthemes.com/support/ and check the demo at https://aquariusthemes.com/demo/ghumti/
-Version:        1.0.05
-License:        GNU General Public License v3 or later
-License URI:    https://www.gnu.org/licenses/gpl-3.0.html
-Text Domain:    ghumti
-Tags:           blog, grid-layout, custom-colors, one-column, two-columns, three-columns, left-sidebar, right-sidebar, custom-logo, footer-widgets, full-width-template, theme-options, translation-ready
-
-This theme, like WordPress, is licensed under the GPL.
-Use it to make something cool, have fun, and share what you've learned with others.
-
-Ghumti is based on Underscores https://underscores.me/, (C) 2012-2016 Automattic, Inc.
-Undersceors is distributed under the terms of the GNU GPL v3 or later.
-
-Normalizing styles have been helped along thanks to the fine work of
-Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
-*/
-
-/*--------------------------------------------------------------
-Reset
---------------------------------------------------------------*/
 
 html {
     font-family: sans-serif;
@@ -5086,4 +5061,93 @@ ul.new-prod-slide {
         letter-spacing: 45px;
     }
 
+}
+
+.navbar {
+  height: 37px;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+.main-name {
+  font-size: 20px;
+}
+
+.second-nav {
+  margin-top: 1.5em;
+  margin-bottom: 1.5em;
+
+}
+
+.fa, .fas {
+  font-weight: 900;
+}
+
+.icon-sm {
+  font-size: 17px;
+}
+
+.nav-item {
+  margin-left: 1em;
+}
+
+.second-link {
+  font-size: 18px;
+  color: #1c1c1c;
+}
+
+.padding-y-sm {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+a .second-link {
+  color: black;
+}
+
+.section-gap {
+  padding: 100px 0;
+}
+
+.single-features .f-icon {
+  margin-bottom: 20px;
+}
+
+.single-features {
+  text-align: center;
+  border-right: 1px solid #eeeeee;
+}
+
+
+.features-inner {
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  padding: 40px 0;
+}
+
+.trending {
+  text-align: center;
+  margin-bottom: 1em;
+  color: #2c2d3f;
+  font-weight: bold;
+}
+
+
+.centrar {
+  text-align: center;
+}
+
+
+.list {
+  list-style-type: none;
+  margin-bottom: 5em; 
+}
+
+.items {
+  justify-content: center;
+}
+
+.center {
+  width: auto;
 }
